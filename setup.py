@@ -33,9 +33,9 @@ setup(
     ],
     description="Cookiecutter ShaPackage 包含创建Python包所需的所有模板文件。",
     entry_points={
-        'console_scripts': [
-            'shadocs=shadocs.cli:main',
-        ],
+        'mkdocs.themes': [
+            'shadocs = shadocs',
+        ]
     },
     install_requires=requirements,
     license="MIT license",
