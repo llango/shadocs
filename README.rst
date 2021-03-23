@@ -16,7 +16,7 @@ Shadocs
 
 
 
-Cookiecutter ShaPackage 包含创建Python包所需的所有模板文件。
+Shadocs 一个清新美丽的mkdocs 主题。
 
 
 * 开源协议: MIT license
@@ -26,7 +26,8 @@ Cookiecutter ShaPackage 包含创建Python包所需的所有模板文件。
 特征
 --------
 
-* TODO
+* ` pip install shadocs ` 进行安装便可。
+*  修改mkdocs.yml 文件theme: name: 设置为 shadocs 便可。
 
 鸣谢
 -------
