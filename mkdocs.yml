@@ -1,0 +1,41 @@
+site_name: Shadocs
+site_url: https://github.com/llango/shadocs
+site_author: llango
+site_description: "一个使用mkdocs生成的静态文档主题。"
+repo_url: "https://github.com/llango/shadocs"
+copyright: "Shadocs使用证书为: <a href='https://github.com/llango/shadocs/blob/master/LICENSE.md'>MIT license</a>"
+
+theme:
+  name: null
+  custom_dir: shadocs
+  colorscheme: github
+  highlightjs: true
+  collapse_by_default: false
+  include_search_page: true
+  search_index_only: false
+  hljs_languages:
+      - yaml
+      - django
+
+nav:
+  - 首页: index.md
+  - 用户向导:
+      - Writing Your Docs: user-guide/writing-your-docs.md
+      - Styling Your Docs: user-guide/styling-your-docs.md
+      - Configuration: user-guide/configuration.md
+      - Deploying Your Docs: user-guide/deploying-your-docs.md
+      - Custom Themes: user-guide/custom-themes.md
+      - Plugins: user-guide/plugins.md
+  - 关于:
+      - Release Notes: about/release-notes.md
+      - Contributing: about/contributing.md
+      - License: about/license.md
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  
+plugins:
+  - search

@@ -1,0 +1,16 @@
+# 在travis-ci.com上自动测试的配置文件 
+
+language: python
+python:
+  - 3.8
+  - 3.7
+  - 3.6
+  - 3.5
+
+# 安装依赖命令, e.g. pip install -r requirements.txt --use-mirrors
+install: pip install -U tox-travis
+
+# 运行测试命令, e.g. python setup.py test
+script: tox
+
+
