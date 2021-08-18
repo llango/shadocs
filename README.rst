@@ -36,3 +36,9 @@ Shadocs 一个清新美丽的mkdocs 主题。
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`llango/cookiecutter-shapackage`: https://github.com/llango/cookiecutter-shapackage
+
+效果图
+--------
+
+.. image:: ./screen/jietu.png
+        :alt: 主题效果图
