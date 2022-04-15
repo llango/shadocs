@@ -15,6 +15,8 @@ theme:
   search_index_only: false
   hljs_languages:
       - yaml
+      - javascript
+      - python
       - django
 
 nav:
