@@ -189,6 +189,15 @@ body {
     color: var(--color-header-text);
     text-decoration: none
 }
+.mobile-header .header-center a img{
+    height: 24px;
+    float: left;
+    margin-right: 8px;
+}
+
+.mobile-header .header-center a div{
+    float:  left;
+}
 
 .announcement {
     background-color: var(--color-announcement-background);
