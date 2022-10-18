@@ -10,3 +10,5 @@ search_index_only: false
 hljs_languages:
     - yaml
     - django
+    - python
+    - javascript

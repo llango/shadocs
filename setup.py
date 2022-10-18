@@ -48,6 +48,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/llango/shadocs',
-    version='0.1.3',
+    version='1.0.1',
     zip_safe=False,
 )
