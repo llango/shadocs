@@ -652,6 +652,12 @@ scrollbar {
     flex-direction: column
 }
 
+.sidebar-scroll{
+    overflow-y: visible !important;
+    width: 303px !important;
+    height: 100%;
+}
+
 .sidebar-scroll,
 .toc-scroll {
     flex-shrink: 1;
