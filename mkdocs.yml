@@ -7,6 +7,7 @@ copyright: "Shadocs使用证书为: <a href='https://github.com/llango/shadocs/b
 
 theme:
   name: null
+  logo: "https://github.com/llango/shadocs/blob/master/docs/img/logo.png"
   custom_dir: shadocs
   colorscheme: github
   highlightjs: true
